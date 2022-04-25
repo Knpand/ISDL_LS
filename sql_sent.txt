@@ -1,0 +1,9 @@
+create table books ( id int auto_increment primary key, title varchar(64) not null, ISBN int not null,  renterid int, return_date DATE, overview varchar(500), rent_date DATE, CONSTRAINT fk_renter_id FOREIGN KEY (renterid) REFERENCES students (id) ON DELETE RESTRICT ON UPDATE RESTRICT);
+create table students (id int not null primary key, name varchar(64) not null);
+
+insert into books values(NULL,"a",12, 0001,'2021\\08\\13',"ass",'2021\\08\\14');
+
+
+
+
+
