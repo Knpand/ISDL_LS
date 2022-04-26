@@ -1,9 +1,9 @@
 import requests
 import time
 
-RAKUTEN_BOOKS_API_URL = "https://app.rakuten.co.jp/services/api/BooksBook/Search/20170404"
+RAKUTEN_BOOKS_API_URL = ＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊
 # IDはalexが取得した
-RAKUTEN_APP_ID = "1022405786460309384"
+RAKUTEN_APP_ID = ＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊
 
 class RAKUTENAPI:
   def get_book_info_by_isbn(self, isbn):
