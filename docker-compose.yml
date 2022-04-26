@@ -44,8 +44,8 @@ services:
         environment:
             MYSQL_ROOT_PASSWORD: root
             MYSQL_DATABASE: books_db
-            MYSQL_USER: light
-            MYSQL_PASSWORD: light
+            MYSQL_USER: ＊＊＊＊
+            MYSQL_PASSWORD: **＊＊
             TZ: 'Asia/Tokyo'
         volumes:
             - ./database/data:/var/lib/mysql
